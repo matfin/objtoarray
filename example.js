@@ -1,5 +1,7 @@
 'use strict';
 
+var objtoarray = require('./objtoarray');
+
 var map = {
 	messing: null,
 	uhoh: undefined,
@@ -47,4 +49,12 @@ var map = {
 		attributeOne: 5,
 		attributeTwo: 6
 	}
-};
+},
+
+converted = objtoarray.convert(map);
+
+console.log('==== Original ====');
+console.log(map);
+
+console.log('==== Converted ====');
+console.log(converted);

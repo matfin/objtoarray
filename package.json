@@ -6,5 +6,18 @@
 	"scripts": {
 		"test": "./node_modules/.bin/mocha --reporter spec"
 	},
-	
+	"repository": {
+    "type": "git",
+    "url": "git+https://github.com/matfin/objtoarray.git"
+  },
+  "author": "Matt Finucane <matfin@gmail.com> (http://mattfinucane.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matfin/objtoarray/issues"
+  },
+  "homepage": "https://github.com/matfin/objtoarray#readme",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5"
+  }
 }
